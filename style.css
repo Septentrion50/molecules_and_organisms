@@ -1,0 +1,44 @@
+/* Layout Index */
+
+.jumbotron-fluid {
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-custom {
+    max-width: 40rem;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 100%;
+}
+
+    /* Images */
+
+.img-center {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20rem;
+}
+.img-navbar {
+    background-image: url(./images/navbar.png);
+}
+.img-footer {
+    background-image: url(./images/footer.png);
+}
+
+/* ---------------------------------------------------------- */
+
+/* Page footer */
+
+.footer {
+    height: 10em;
+    display: flex;
+    justify-content: center;
+}
+.footer-list {
+    width: 30em;
+}
