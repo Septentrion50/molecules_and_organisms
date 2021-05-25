@@ -14,6 +14,9 @@
 .container {
     max-width: 100%;
 }
+.index-cont {
+    max-width: 80%;
+}
 
     /* Images */
 
@@ -40,6 +43,9 @@
 }
 .img-events {
     background-image: url(./images/event-list.png);
+}
+.img-comment {
+    background-image: url(./images/comment.png);
 }
 
 /* ---------------------------------------------------------- */
