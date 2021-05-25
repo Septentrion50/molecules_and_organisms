@@ -35,6 +35,9 @@
 .img-banners {
     background-image: url(./images/banners.png);
 }
+.img-cards {
+    background-image: url(./images/cards.png);
+}
 
 /* ---------------------------------------------------------- */
 
@@ -74,4 +77,21 @@
 .jumbo-std {
     height: 20rem;
     background-image: url(./images/banner-std.jpg);
+}
+
+/* ---------------------------------------------------------- */
+
+/* Cartes */
+
+.img-event {
+    background-image: url(./images/event.jpg); 
+}
+.media-img {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    background-image: url(./images/profile.jpg);
+}
+.img-city {
+    background-image: url(./images/paris.jpg);
 }
