@@ -135,8 +135,16 @@
     top: 0;
     left: 0;
 }
-.comment-list {
+.cont-80 {
     display: flex;
     max-width: 80%;
     margin: auto;
+}
+
+/* ---------------------------------------------------------- */
+
+/* Ressource */
+
+.social {
+    font-size: 40px;
 }
