@@ -56,6 +56,9 @@
 .img-element {
     background-image: url(./images/element.png);
 }
+.img-custom-element {
+    background-image: url(./images/custom_element.png);
+}
 
 /* ---------------------------------------------------------- */
 
@@ -169,4 +172,22 @@
 .hover-card {
     margin-left: -100px !important;
     z-index: 5;
+}
+
+/* ---------------------------------------------------------- */
+
+/* Custom element */
+
+.price-section {
+    display: flex;
+    justify-content: center;
+    padding-left: 3em;
+}
+.center-panel {
+    margin-left: -2em;
+    transform: scale(1.1);
+    z-index: 5;
+}
+.right-panel {
+    margin-left: -2em;
 }
