@@ -32,6 +32,9 @@
 .img-forms {
     background-image: url(./images/forms.png);
 }
+.img-banners {
+    background-image: url(./images/banners.png);
+}
 
 /* ---------------------------------------------------------- */
 
@@ -44,4 +47,31 @@
 }
 .footer-list {
     width: 30em;
+}
+
+/* ---------------------------------------------------------- */
+
+/* Bannières */
+
+.jumbo {
+    display: flex;
+    position: relative;
+    z-index: 1;
+}
+.jumbo-huge {
+    height: 40rem;
+    background-image: url(./images/banner-huge.jpg);
+}
+.jumbo-layer {
+    z-index: -1;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.jumbo-std {
+    height: 20rem;
+    background-image: url(./images/banner-std.jpg);
 }
