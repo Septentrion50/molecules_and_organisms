@@ -38,6 +38,9 @@
 .img-cards {
     background-image: url(./images/cards.png);
 }
+.img-events {
+    background-image: url(./images/event-list.png);
+}
 
 /* ---------------------------------------------------------- */
 
@@ -94,4 +97,12 @@
 }
 .img-city {
     background-image: url(./images/paris.jpg);
+}
+
+/* ---------------------------------------------------------- */
+
+/* Liste de cartes */
+
+.event-list {
+    max-width: 90%;
 }
